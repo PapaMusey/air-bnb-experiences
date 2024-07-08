@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.card-image{
+  height: 175px;
+}
+.main-image{
+  height: 2700px;
+}
