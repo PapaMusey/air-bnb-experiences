@@ -1,8 +1,9 @@
 import React from "react";
-import cardData from "./cardData"
+// import cardData from "./cardData"
 import image from "../img/image.png"
 
-export default function Card() {
+export default function Card(props) {
+   
     return (
         <div>
             <img className="card-image" src={image} alt="card-image" />

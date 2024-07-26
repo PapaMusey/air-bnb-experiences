@@ -10,7 +10,7 @@ export const cardData = [
         rating:"5.0",
         reviewCount:"2",
     },
-    localtion:"Online",
+    location:"Online",
     openSpots:"0",
 },
 {
@@ -22,7 +22,7 @@ export const cardData = [
         rating:"4",
         reviewCount:"4",
     },
-    localtion:"Online",
+    location:"Online",
     openSpots:"5",
 },
 {
@@ -34,7 +34,7 @@ export const cardData = [
         rating:"2",
         reviewCount:"1",
     },
-    localtion:"Normay",
+    location:"Normay",
     openSpots:"16",
 },
 ]
