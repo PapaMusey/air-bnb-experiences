@@ -11,11 +11,13 @@ function App() {
     <div>
     <Nav />
     <Main img="../img/image.png" />
-    <Card key={cardData.id}
-    title={cardData.title}
-    price={cardData.price}
-    location={cardData.Online}
-    />
+    <Card
+    rating="5.0"
+    reviewCount={6}
+    country="USA"
+    title="Life Lessons with Katie Zaferes"
+    price={136}
+     />
     </div>
 
   );
