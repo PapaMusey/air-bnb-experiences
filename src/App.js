@@ -3,21 +3,26 @@ import './App.css';
 import Nav from './components/Nav';
 import Main from './components/Main';
 import Card from './components/Card';
-import { cardData } from './components/cardData';
+import  {cardData} from './components/cardData';
 
 
 function App() {
+  
+  const newCards = cardData.map((card) => 
+  <Card
+  img={card.coverImg}
+  rating={card.stats.rating}
+  reviewCount={6}
+  country={card.location}
+  title={card.title}
+  price={card.price} 
+   />
+  )
   return (
     <div>
     <Nav />
     <Main img="../img/image.png" />
-    <Card
-    rating="5.0"
-    reviewCount={6}
-    country="USA"
-    title="Life Lessons with Katie Zaferes"
-    price={136}
-     />
+    {newCards}
     </div>
 
   );
