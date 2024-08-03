@@ -6,7 +6,7 @@ export const cardData = [
     title:"Life lessons with Katie Zaferes",
     description:"",
     price:"136",
-    coverImg:"image.png",
+    coverImg:"/img/image.png",
     stats:{
         rating:"5.0",
         reviewCount:"2",
@@ -19,7 +19,7 @@ export const cardData = [
     title:"Learn wedding photography",
     description:"",
     price:"125",
-    coverImg:"wedding-photography.png",
+    coverImg:"/img/wedding-photography.png",
     stats:{
         rating:"4",
         reviewCount:"4",
@@ -32,7 +32,7 @@ export const cardData = [
     title:"Group Mountain Biking",
     description:"",
     price:"72",
-    coverImg:"mountain-bike.png",
+    coverImg:"/img/mountain-bike.png",
     stats:{
         rating:"2",
         reviewCount:"1",

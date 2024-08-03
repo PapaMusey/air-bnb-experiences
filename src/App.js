@@ -10,6 +10,7 @@ function App() {
   
   const newCards = cardData.map((card) => 
   <Card
+  key={card.id}
   img={card.coverImg}
   rating={card.stats.rating}
   reviewCount={6}
