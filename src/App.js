@@ -11,13 +11,7 @@ function App() {
   const newCards = cardData.map((card) => 
   <Card
   key={card.id}
-  img={card.coverImg}
-  rating={card.stats.rating}
-  reviewCount={6}
-  country={card.location}
-  title={card.title}
-  price={card.price} 
-  openSpots={card.openSpots}
+ {...card}
    />
   )
   return (
