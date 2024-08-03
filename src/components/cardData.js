@@ -12,7 +12,7 @@ export const cardData = [
         reviewCount:"2",
     },
     location:"Online",
-    openSpots:"0",
+    openSpots:0,
 },
 {
     id:"4",
@@ -25,7 +25,7 @@ export const cardData = [
         reviewCount:"4",
     },
     location:"Online",
-    openSpots:"5",
+    openSpots:5,
 },
 {
     id:"5",
@@ -38,6 +38,7 @@ export const cardData = [
         reviewCount:"1",
     },
     location:"Normay",
-    openSpots:"16",
+    openSpots:6,
 },
+
 ]

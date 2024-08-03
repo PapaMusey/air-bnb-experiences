@@ -17,13 +17,16 @@ function App() {
   country={card.location}
   title={card.title}
   price={card.price} 
+  openSpots={card.openSpots}
    />
   )
   return (
     <div>
     <Nav />
     <Main img="../img/image.png" />
-    {newCards}
+    <section className='card-list'>
+     {newCards}
+    </section>
     </div>
 
   );
